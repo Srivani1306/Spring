@@ -1,0 +1,5 @@
+MySQLJdbcDriverClass=com.mysql.cj.jdbc.Driver
+MySQLJdbcUrl=jdbc:mysql://@localhost:3306/development?serverTimezone=UTC
+
+MySQLUsername=root
+MYSQLPassword=abc123
