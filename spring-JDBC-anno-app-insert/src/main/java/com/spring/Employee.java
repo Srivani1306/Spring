@@ -3,7 +3,7 @@ package com.spring;
 public class Employee {
 
 	private int id;
-	private String sname;
+	private String name;
 	private float salary;
 	
 	
@@ -15,12 +15,12 @@ public class Employee {
 		this.id = id;
 	}
 	
-	public String getSname() {
-		return sname;
+	public String getname() {
+		return name;
 	}
 	
-	public void setSname(String sname) {
-		this.sname = sname;
+	public void setname(String sname) {
+		this.name = sname;
 	}
 	
 	public float getSalary() {

@@ -24,7 +24,7 @@ public class EmployeeDAO {
 		
 		//To access properties from POJO
 		Object[] params = new Object[] {
-				employee.getId(),employee.getSname(),employee.getSalary()
+				employee.getId(),employee.getname(),employee.getSalary()
 		};
 		
 		//Define SQL types respective to POJO class

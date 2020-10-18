@@ -12,8 +12,9 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 
 @Configuration
-@PropertySource(value = {"classpath:db.properties.txt"})
+
 public class AppConfig {
+	
 	
 	@Autowired
 	private Environment env;
@@ -42,3 +43,4 @@ public class AppConfig {
 		return new EmployeeDAO();
 	}
 }
+

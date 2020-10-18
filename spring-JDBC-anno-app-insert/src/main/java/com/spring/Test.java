@@ -10,7 +10,7 @@ public class Test {
 	public static void main(String[] args) {
 		
 		
-		ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
+    ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
 		
 		System.out.println(context);
 		
@@ -24,7 +24,7 @@ public class Test {
 		
 		Employee employee = new Employee();
 		employee.setId(110);
-		employee.setSname("ammu6.j ");
+		employee.setname("ammu6.j ");
 		employee.setSalary(120000);
 		
 		int noOfrecords = dao.insertEmployee(employee);
